@@ -1,0 +1,48 @@
+.service-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-container h1{
+    width: fit-content;
+    font-size: 3em;
+    padding-top: 5%;
+    color: #696969;
+}
+
+.carousel-item{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #1b1b1b;*/
+    border-radius: 10px;
+    margin-bottom: 35%;
+    height: 40%;
+    box-shadow: 2px 2px 5px black;
+}
+
+.carousel-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #696969;
+    padding-top: 15%;
+}
+
+.carousel-image{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.carousel-text p{
+    padding-top: 10px;
+}
+
+@media(max-width: 980px){
+    .carousel-image{
+        height: 40%;
+    }
+    .carousel-item{
+        height: 538px!important;
+    }
+}
