@@ -1,3 +1,9 @@
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .service-container{
     display: flex;
     justify-content: center;
