@@ -1,0 +1,80 @@
+
+.banner {
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 80vh;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.ImgMidias {
+    background: url('../../assets/gradiente.png');  
+}
+
+.ImgInbound {
+    background: url('../../assets/Grupo de máscara 14.png');
+}
+
+.ImgTecnologias {
+    background: url('../../assets/shutterstock_768252712.png');  
+    background-position: bottom;
+}
+
+ul {
+    width: 100%;
+    list-style-type: none;
+    color: white;
+    margin: 50px 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.link-ref {
+    text-decoration: none;
+    border: 4px solid rgba(255, 255, 255, 0);
+    border-radius: 50px;
+
+    font-family: MontserratRegular;
+    font-weight: bold;
+    font-size: 40px;
+
+    padding: 10px 30px;
+
+    color: inherit;
+
+    transition: border linear 0.1s;
+}
+
+.link-ref:hover {
+    border-color:white;
+}
+
+@media(max-width: 980px) {
+    ul {
+        /* flex-direction: column; */
+    }
+    .link-ref {
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media(max-width: 768px) {
+    ul {
+        /* flex-direction: column; */
+    }
+    .link-ref {
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+    }
+}
