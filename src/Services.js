@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Header from './components/Header';
-import Carousel from './components/Carousel';
+import HeaderDesktop from './components/HeaderDesktop';
 import Timeline from './components/Timeline';
 import Certified from './components/Certified';
 import Footer from './components/Footer';
@@ -15,9 +15,7 @@ function Services() {
   return (
     <div>
       <Header></Header>
-      <Carousel></Carousel>
-      <Timeline></Timeline>
-      <Certified></Certified>
+      <HeaderDesktop></HeaderDesktop>
       <Footer></Footer>
     </div>
   );
