@@ -15,6 +15,7 @@
     outline: none;
     margin-bottom: 1.5%;
     font-family: MontserratLight;
+    padding-left: 3%;
 }
 
 .forms-container label{
@@ -39,7 +40,7 @@
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    padding-left: 3%;
+    padding-left: 0%;
 }
 
 @media (max-width: 980px){
