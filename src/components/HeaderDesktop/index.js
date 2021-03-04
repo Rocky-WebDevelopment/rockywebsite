@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import logo from "../../assets/logo_branco.png";
+
 function HeaderDesktop() {
 
   return (
