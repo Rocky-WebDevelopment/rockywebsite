@@ -2,80 +2,26 @@ import React from 'react';
 import '../Certified/styles.css';
 import facebook_partner from "../../assets/facebook_partner.png";
 import google_partner from "../../assets/google_partner.png";
-import ccp from "../../assets/ccp.png";
+
 import pirelli from "../../assets/pirelli-logo.png";
-import cvcbrasil from "../../assets/cvcbrasil.png";
-import fabercastell from "../../assets/faber-castell.png";
-import athenasaude from "../../assets/athena-saude.png";
-import abc from "../../assets/abc.png";
-import jovempan from "../../assets/jovempan.png";
-import etna from "../../assets/etna.png";
+import onstores from "../../assets/onstores.png";
+import nacional from "../../assets/nacional.png";
+import manole from "../../assets/manole.png";
+import metzeler from "../../assets/metzeler.png";
+import like from "../../assets/like.png";
+import irobot from "../../assets/irobot.png";
 import khanacademy from "../../assets/khan-academy.png";
-import grupopatria from "../../assets/grupo-patria.png";
-import boschlogo from "../../assets/bosch-logo.png";
-import telhanorte from "../../assets/telhanorte.png";
-import brflogo from "../../assets/brf-logo.png";
-import slowbeauty from "../../assets/slow-beaty.png";
+import widmen from "../../assets/widmen.png";
+import tjama from "../../assets/tjama.png";
+import subviagens from "../../assets/subviagens.png";
+import socopa from "../../assets/socopa.png";
+import roldao from "../../assets/roldao.png";
+
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 function Certified(){
 
-    const responsive = {
-        0: { items: 1 },
-        568: { items: 2 },
-        1024: { items: 1 },
-    };
-
-    const items = [
-        <div className="item" data-value="1">
-          <div className="second-carousel-item">
-            <img src={ccp}/>
-          </div>
-        </div>,
-
-        <div className="item" data-value="2">
-          <div className="second-carousel-item">
-            <img src={pirelli}/>
-          </div>
-        </div>,
-        
-        <div className="item" data-value="3">
-          <div className="second-carousel-item">
-            <img src={cvcbrasil}/>
-          </div>
-        </div>,
-
-        <div className="item" data-value="3">
-        <div className="second-carousel-item">
-          <img src={athenasaude}/>
-        </div>
-        </div>,
-
-        <div className="item" data-value="3">
-                  <div className="second-carousel-item">
-                    <img src={fabercastell}/>
-                  </div>
-                </div>,
-
-        <div className="item" data-value="3">
-        <div className="second-carousel-item">
-          <img src={grupopatria}/>
-        </div>
-        </div>,
-
-        <div className="item" data-value="3">
-                  <div className="second-carousel-item">
-                    <img src={khanacademy}/>
-                  </div>
-                </div>,
-
-        <div className="item" data-value="3">
-        <div className="second-carousel-item">
-          <img src={jovempan}/>
-        </div>
-        </div>
-    ];
 
     return(
         <div>
@@ -90,15 +36,35 @@ function Certified(){
             <div className="certify-container">
                 <h1>Nossos Clientes</h1>
 
-                <AliceCarousel
-          mouseTracking
-          autoPlay={true}
-          items={items}
-          responsive={responsive}
-        >
-        </AliceCarousel>
-                <div className="image-container">
-                    <div className="partners-logo-container">
+                
+                <div className="clients-logo-container">
+
+                      <div className="conectors_box" >
+                        <img src={pirelli}/>
+                        <img src={onstores}/>
+                        <img src={nacional}/>
+                        <img src={manole}/>
+                        <img src={like}/>
+                      </div>
+
+                      <div className="conectors_box" >
+                        <img src={widmen}/>
+                        <img src={tjama}/>
+                        <img src={subviagens}/>
+                        <img src={socopa}/>
+                        <img src={irobot}/>
+                      </div>
+                    
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Certified;
+
+/*
+<div className="partners-logo-container">
                         <img src={fabercastell}/>
                         <img src={pirelli}/>
                         <img src={ccp}/>
@@ -121,10 +87,49 @@ function Certified(){
                         <img src={slowbeauty}/>
                     </div>
                     
-                </div>
-            </div>
-        </div>
-    );
-}
+                    <div className="moving_container">
+                      <div className="conectors_box" >
+                        <img src={pirelli}/>
+                      </div>
 
-export default Certified;
+                      <div className="conectors_box" >
+                        <img src={onstores}/>
+                      </div>
+
+                      <div className="conectors_box" >
+                        <img src={nacional}/>
+                      </div>
+
+                      <div className="conectors_box" >
+                        <img src={manole}/>
+                      </div>
+
+                    
+                      <div className="conectors_box" >
+                        <img src={like}/>
+                      </div>
+
+                  </div>
+
+                  <div className="second_moving_container">
+                      <div className="conectors_box" >
+                        <img src={widmen}/>
+                      </div>
+
+                      <div className="conectors_box" >
+                        <img src={tjama}/>
+                      </div>
+
+                      <div className="conectors_box" >
+                        <img src={subviagens}/>
+                      </div>
+
+                      <div className="conectors_box" >
+                        <img src={socopa}/>
+                      </div>
+
+                      <div className="conectors_box" >
+                        <img src={irobot}/>
+                      </div>
+                  </div>
+*/

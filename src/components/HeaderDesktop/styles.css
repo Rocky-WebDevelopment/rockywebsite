@@ -10,7 +10,6 @@
 }
 
 .header-container{
-    background-image: url("../../assets/banner02.png");
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -56,29 +55,21 @@
     
 }
 
-.desktop-header input{
-    width: 198px;
-    height: 30px;
-    background: transparent url('../../assets/Rectangle_13.svg') 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    border: none;
-}
-
 @media (min-width: 980px){
     .header-container{
-        height: 100vh;
+        height: 11vh;
         justify-content: start;
     }
     .desktop-header{
         display: flex;
         flex-direction: row;
-        background-color: #383736;
-        background: transparent linear-gradient(180deg, #FFFFFF00 0%, #80808080 100%) 0% 0% no-repeat padding-box;
+        background-color: #383736!important;
         opacity: 1;
+        background: none;
+        height: 100%;
         backdrop-filter: blur(6px);
         font-size: 9px;
         color: #ffffff;
-        height: 14%;
         align-items: center;
         justify-content: space-around;
     }
