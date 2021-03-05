@@ -8,6 +8,13 @@ html, body {
   padding: 0;
 }
 
+
+
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
+
 @font-face {
   font-family: MontserratBold;
   src: url(/src/assets/Montserrat-Bold.ttf);
@@ -22,6 +29,7 @@ html, body {
   font-family: MontserratLight;
   src: url(/src/assets/Montserrat-Light.ttf);
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -39,7 +47,7 @@ h1{
   font-family: MontserratBold;
 }
 
-p{
+p {
   margin-block-start: 0em!important;
   margin-block-end: 0em!important;
   font-family: MontserratBold;

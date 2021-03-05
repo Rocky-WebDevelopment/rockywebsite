@@ -6,6 +6,24 @@
     padding-bottom: 100px;
 }
 
+.clients-logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2%;
+}
+
+@keyframes rightIt {
+    from {transform: translate(0%);}
+    to { transform: translate(60.5%);}
+}
+
+@keyframes leftIt {
+    from {transform: translate(60.5%);}
+    to { transform: translate(0%);}
+}
+
 .certify-container h1{
     text-align: center;
     width: fit-content;
@@ -32,7 +50,7 @@
 @media (min-width: 980px){
     .image-container{
         width: 100%;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .partners-logo-container img{
@@ -45,6 +63,27 @@
         width: 100%;
         justify-content: center;
     }
+
+    .conectors_box{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-top: 2%;
+      }
+      
+      .conectors_box img{
+        height: 110px;
+        width: 190px;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+      }
+      .second_moving_container{
+        display: flex;
+        width: 100%;
+        color: #ffffff;
+        margin-top: 1.5%;
+        animation: leftIt 7s linear infinite alternate;
+      }
 }
 
 .second-carousel-item{

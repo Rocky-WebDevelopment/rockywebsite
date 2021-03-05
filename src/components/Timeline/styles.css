@@ -4,3 +4,13 @@
 .vertical-timeline::before{
     background-color: #F0E714;
 }
+
+@media (min-width: 980px){
+    .timeline-container{
+        margin-top: -1.4%;
+    }
+}
+
+#expand-timeline{
+    cursor: pointer;
+}
