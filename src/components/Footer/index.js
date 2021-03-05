@@ -19,15 +19,15 @@ function Footer() {
         <img src={rocky}/>
         <div className="icons-container">
           <div className="spans-container">
-            <img style={{width:"22%", padding: "0%"}} src={mailicon}/>
+            <img id="email" style={{width:"22%", padding: "0%"}} src={mailicon}/>
             <span>contato@rocky.ag</span>
           </div>
           <div className="spans-container">
-            <img style={{width:"22%", padding: "0%"}} src={phoneicon}/>
+            <img id="phone" style={{width:"22%", padding: "0%"}} src={phoneicon}/>
             <span>(15) 3321-1105</span>
           </div>
           <div className="spans-container" >
-            <img style={{width:"3%", padding: "0%"}} src={locationicon}/>
+            <img id="local" style={{width:"3%", padding: "0%"}} src={locationicon}/>
             <span>R. Romeu do Nascimento, 247 - Jardim Portal da Colina, Sorocaba - SP, 18047-410 , 2º andar
             </span>
           </div>

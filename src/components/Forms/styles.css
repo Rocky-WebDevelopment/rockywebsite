@@ -1,0 +1,59 @@
+.forms-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.forms-container input{
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: 50px;
+    width: 35%;
+    height: 6vh;
+    outline: none;
+    margin-bottom: 1.5%;
+    font-family: MontserratLight;
+    padding-left: 3%;
+}
+
+.forms-container label{
+    width: 33%;
+    font-size: 20px;
+    color: #808080;
+    font-family: MontserratLight;
+}
+
+.forms-container button{
+    background-color: #F6EF34;
+    border: none;
+    color: #696969;
+    width: 35%;
+    border-radius: 50px;
+    height: 6vh;
+    font-size: 30px;
+}
+
+#message{
+    height: 20vh;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    padding-left: 0%;
+}
+
+@media (max-width: 980px){
+    .forms-container input{
+        width: 90%;
+    }
+
+    .forms-container label{
+        width: 84%;
+    }
+    
+    .forms-container button{
+        width: 90%;
+        font-size: 14px;
+    }
+}
