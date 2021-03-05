@@ -10,24 +10,9 @@
     background-color: gray;
     height: 80vh;
 }
-
-.ImgMidias {
-    background-image: url('../../assets/gradiente.png'); 
-}
-
-.ImgInbound {
-    background-image: url('../../assets/Grupo de máscara 14.png');
-}
-
-.ImgTecnologias {
-    background-image: url('../../assets/shutterstock_768252712.png');  
-}
-
-
 .main-btns {
     margin: 0 auto;
 }
-
 
 .mainb-bts ul {
     width: 100%;
@@ -46,8 +31,7 @@
     border: 4px solid rgba(255, 255, 255, 0);
     border-radius: 50px;
 
-    font-family: MontserratRegular;
-    font-weight: bold;
+    font-family: MontserratBold;
     font-size: 40px;
 
     padding: 1.2rem 2.2rem;
@@ -66,6 +50,45 @@
 .link-ref:focus {
     border-color:white;
 }
+
+
+.ImgHome {
+    background-image: url('../../assets/services-home.png'); 
+}
+
+.ImgMidias {
+    background-image: url('../../assets/gradiente.png'); 
+}
+
+.ImgInbound {
+    background-image: url('../../assets/Grupo\ de\ máscara\ 14.png');
+}
+
+.ImgTI {
+    background-image: url('../../assets/services-ti.png')
+}
+.ImgCRO {
+    background-image: url('../../assets/services-cro.png');
+}
+
+.ImgSEO {
+    background-image: url('../../assets/services-seo.png')
+}
+.ImgWebDev {
+    background-image: url('../../assets/services-ti.png');
+}
+
+.ImgAnalytics {
+    background-image: url('../../assets/services-webanaly.jpg')
+}
+/* .ImgDesign {
+    background-image: url('../../assets/service.png');
+} */
+
+.ImgSocial {
+    background-image: url('../../assets/services-social.png')
+}
+
 
 @media(max-width: 980px) {
     
