@@ -10,11 +10,14 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Midias from '../Midias/PageMidias'
 import Inbound from '../Inbound/PageInbound'
 import Tecnologias from '../Tecnologias/PageTech';
-import CRO from '../CRO/PageCro'
-import SEO from '../SEO/PageSeo'
-import Home from '../Home/PageServicesHome'
-import WebDev from '../WebDev/PageWebDev'
-import WebAnalytics from '../WebAnalytics/PageWebAnalytics'
+import CRO from '../CRO/PageCro';
+import SEO from '../SEO/PageSeo';
+import Design from '../Design/PageDesign';
+import SocialMedia from '../Social/PageSocialMedia';
+import Conteudo from '../Conteudo/PageConteudo';
+import Home from '../Home/PageServicesHome';
+import WebDev from '../WebDev/PageWebDev';
+import WebAnalytics from '../WebAnalytics/PageWebAnalytics';
 import '../pageStyles.css'
 
 
@@ -35,13 +38,17 @@ function Services() {
         <Switch>
             <Route exact path="/services" component={Home} />
             <Route path="/services/midias" component={Midias} />
+
+            <Route path="/services/home" component={Home} />
             <Route exact path="/services/inbound" component={Inbound} />
             <Route path="/services/inbound/seo" component={SEO} />
             <Route path="/services/inbound/cro" component={CRO} />
-            <Route exact path="/services/tecnologias" component={Tecnologias} />
+            <Route path="/services/inbound/design" exact={true} component={Design} />
+            <Route path="/services/inbound/social" exact={true} component={SocialMedia} />
+            <Route path="/services/inbound/conteudo" exact={true} component={Conteudo} />
             <Route path="/services/tecnologias/webdev" component={WebDev} />
             <Route path="/services/tecnologias/webanalytics" component={WebAnalytics} />
-
+    
         </Switch>
       </ BrowserRouter>
       
