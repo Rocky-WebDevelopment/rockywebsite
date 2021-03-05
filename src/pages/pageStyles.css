@@ -11,10 +11,9 @@ h3 {
 }
 
 .container {
-    max-width: 60vw;
+    max-width: 80vw;
     margin: 7rem auto;
     color: #696969;
-    
 }
 
 .btn-container {

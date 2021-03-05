@@ -12,7 +12,7 @@ function ServicesBanner(props) {
                     <li>
                         <Link 
                         to={'/services/midias/'} 
-                        className={`link-ref ${isPageActive && "page-active"}`}
+                        className={`link-ref`}
                         >
                             MIDIAS
                         </Link>
@@ -20,7 +20,7 @@ function ServicesBanner(props) {
                     <li>
                         <Link 
                         to={'/services/inbound/'} 
-                        className={`link-ref ${isPageActive && "page-active"}`}
+                        className={`link-ref`}
                         >
                             INBOUND
                         </Link>
@@ -28,7 +28,7 @@ function ServicesBanner(props) {
                     <li>
                         <Link 
                         to={'/services/tecnologias/'} 
-                        className={`link-ref ${isPageActive && "page-active"}`}
+                        className={`link-ref`}
                         >
                             TECNOLOGIAS
                         </Link>

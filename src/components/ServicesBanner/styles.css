@@ -62,7 +62,8 @@ ul {
 }
 
 
-.link-ref:hover {
+.link-ref:hover,
+.link-ref:focus {
     border-color:white;
 }
 

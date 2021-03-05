@@ -1,5 +1,5 @@
 import React from 'react'
-import ServicesBanner from '../components/ServicesBanner/ServicesBanner'
+import ServicesBanner from '../../components/ServicesBanner/ServicesBanner'
 
 function PageSeo() {
     return (
