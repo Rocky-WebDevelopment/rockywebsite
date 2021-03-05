@@ -1,9 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 function Timeline() {
+
+  const [isLoading, setIsLoading] = useState(false)
+  const buttonHandler = () => {
+    setIsLoading(current => !current)
+  }
+
+  useEffect( () => {
+    console.log(isLoading);
+}, [isLoading]);
+
   return (
     <div className="timeline-container">
       <VerticalTimeline>
@@ -18,6 +28,7 @@ function Timeline() {
           Mesmo com todas as dificuldades e incertezas que este ano nos apresentou, conseguimos nos reerguer e alcançar nossa meta de crescimento humano e de faturamento. Fechamos 2020 com 120 funcionários e um crescimento de 270% a.a. em receita. 
           </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Novembro/2020"
@@ -29,6 +40,7 @@ function Timeline() {
           Indicados como agência da Pirelli, recebemos o Prêmio Top of Mind de 2020 nas categorias Top Masculino e no segmento Pneus. Esse é mais um resultado positivo de uma parceria de sucesso que vem há dois anos sendo trabalhada com excelência.
           </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Setembro/2020 e Outubro/2020"
@@ -40,6 +52,7 @@ function Timeline() {
           Ao lado de nomes importantes no mercado do marketing digital, participamos de eventos do Facebook (Ads for Equality) e da All-In (Estratégia de captação de clientes para a Black Friday com mídias pagas) em setembro e outubro, compartilhando conhecimento e aprendendo ainda mais.
           </p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Junho/2020"
@@ -51,7 +64,11 @@ function Timeline() {
           Com um trabalho desenvolvido pelas as áreas de Conteúdo e Social Media, apresentamos uma nova forma de enxergar a tradicional Persona do Marketing Digital. Trabalhando com dados de sessões, conversões, afinidades e segmento de mercado, conseguimos chegar a perfis que sejam mais vantajosos para os clientes e explorar suas oportunidades, sem achismos.
           </p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+
+        {isLoading? 
+          (
+            <div>
+              <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="Abril/2020"
           iconStyle={{ background: '#F0E714', color: '#fff' }}
@@ -156,9 +173,29 @@ function Timeline() {
           A ROCKY abre as portas como a terceira agência de Marketing Digital do Grupo Raccoon com a frente de Mídia de Performance Digital. 
           </p>
         </VerticalTimelineElement>
+            </div>
+          ):
+          
+          (<div>
+            <VerticalTimelineElement
+              iconStyle={{ background: '#F0E714', color: '#fff' }}
+              iconOnClick={buttonHandler}
+              id="expand-timeline"
+              //icon={<StarIcon />}
+            />
+
+            <VerticalTimelineElement
+              iconStyle={{ background: '#F0E714', color: '#fff' }}
+              iconOnClick={buttonHandler}
+              id="expand-timeline"
+              //icon={<StarIcon />}
+            />
+          </div>)}
 
         <VerticalTimelineElement
           iconStyle={{ background: '#F0E714', color: '#fff' }}
+          iconOnClick={buttonHandler}
+          id="expand-timeline"
           //icon={<StarIcon />}
         />
       </VerticalTimeline>

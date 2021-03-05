@@ -33,9 +33,17 @@ function Footer() {
           </div>
         </div>
         <div className="media-container">
-          <img style={{width: "1.5%"}} src={facebook_icon}/>
-          <img style={{width: "3%"}} src={instagram_icon}/>
-          <img style={{width: "3%"}} src={linkedin_icon}/>
+          <a href="https://www.facebook.com/RockyDigitalPerformance/" target="_blank">
+            <img style={{width: "4.5%"}} src={facebook_icon}/>
+          </a>
+
+          <a href="https://www.instagram.com/agencia.rocky/" target="_blank">
+            <img style={{width: "7.5%"}} src={instagram_icon}/>
+          </a>
+
+          <a href="https://www.facebook.com/viabat/" target="_blank">
+            <img style={{width: "7.5%"}} src={linkedin_icon}/>
+          </a>
         </div>
     </div>
   );
