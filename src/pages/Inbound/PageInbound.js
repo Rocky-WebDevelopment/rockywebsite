@@ -22,13 +22,12 @@ function Inbound() {
                 </p>
                 <section className="btn-container">
 
-                    <Link to={"/services/seo"}>SEO</Link>
-                    <Link to={"/services/cro"}>CRO</Link>
-                    <Link to={"/services/design"}>Design</Link>
-                    <Link to={"/services/social"}>Social Media</Link>
-                    <Link to={"/services/conteudo"}>Conteúdo</Link>
-                    <Link to={"/services/ti"}>TI</Link>
-                            
+                    <Link to={"/services/inbound/seo"}>SEO</Link>
+                    <Link to={"/services/inbound/cro"}>CRO</Link>
+                    <Link to={"/services/inbound/design"}>Design</Link>
+                    <Link to={"/services/inbound/social"}>Social Media</Link>
+                    <Link to={"/services/inbound/conteudo"}>Conteúdo</Link>
+                    <Link to={"/services/inbound/ti"}>TI</Link> 
                 </section>
             </div>
         </div>

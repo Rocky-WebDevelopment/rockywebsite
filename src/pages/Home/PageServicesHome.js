@@ -8,7 +8,7 @@ function PageServicesHome() {
     return (
         <div>
             <ServicesBanner
-                img="ImgMidias"
+                img="ImgHome"
             />
 
             <div class="container">
@@ -17,18 +17,17 @@ function PageServicesHome() {
                         <img src={imageHome} alt="Gráficos de Mídias"/>
                     </div>
                     <div class="text">
-                        <h1>Home Services</h1>
-                        <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, harum </h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quibusdam suscipit a voluptatum id eius vel explicabo officia fugiat, ipsa, unde similique quia repudiandae. Iste unde repudiandae illo modi in?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid modi nisi nihil perferendis vero voluptas illo, possimus magni quaerat eaque omnis dolores tenetur iusto quod vel perspiciatis doloremque in et.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quibusdam suscipit a voluptatum id eius vel explicabo officia fugiat, ipsa, unde similique quia repudiandae. Iste unde repudiandae illo modi in?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid modi nisi nihil perferendis vero voluptas illo, possimus magni quaerat eaque omnis dolores tenetur iusto quod vel perspiciatis doloremque in et.</p>
+                        <h3>Uma parceria Full Digital estratégica em Branding e Performance para sua empresa!</h3>
+                        <p>O investimento em mídias pagas de performance, quando bem gerenciado e sendo parte de uma estratégia de marketing digital completa e guiada por dados, traz resultados exponenciais para sua empresa.</p>
+                        <p>Na ROCKY, nossos colaboradores especialistas em mídias têm perfil analítico, são certificados em Google e Microsoft Ads e sabem interpretar diferentes cenários e segmentos.</p>
+                        <p>Trabalhamos em parceria com nossos clientes para o desenvolvimento de estratégias e entregamos resultados mensuráveis a partir de objetivos pré-estabelecidos e execução alinhada a isso. </p>
+                        <p>Auxiliamos empresas que buscam mídias de performance para vendas, geração de leads ou fazer branding pelo digital.</p>
                     
                     </div>
                 </div>
 
                 <div class="more">
-                    <Link to={'/services/midias/'} className="link-ref">Entenda</Link>
+                    <Link to={'/services/midias'} className="link-ref">Entenda</Link>
                 </div>
             </div>
             

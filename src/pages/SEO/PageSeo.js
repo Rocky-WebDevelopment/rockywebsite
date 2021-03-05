@@ -5,7 +5,7 @@ function PageSeo() {
     return (
         <div>
             <ServicesBanner
-                img="ImgInbound"
+                img="ImgSEO"
             />
             <div className="container">
                 <h1>SEO - Search Engine Optimization</h1>

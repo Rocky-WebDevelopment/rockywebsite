@@ -5,7 +5,7 @@ function PageCro() {
     return (
         <div>
             <ServicesBanner
-                img="ImgInbound"
+                img="ImgCRO"
             />
             <div className="container">
                 <h1>CRO - Conversion Rate Optimization</h1>
