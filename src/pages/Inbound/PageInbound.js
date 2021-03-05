@@ -28,12 +28,12 @@ function Inbound() {
 
                 <section className="btn-container">
 
-                    <Link to={"/services/seo"}>SEO</Link>
+                    <Link to={"/services/inbound/seo"}>SEO</Link>
+                    <Link to={"/services/inbound/cro"}>CRO</Link>
+                    {/* <Link to={"/services/seo"}>SEO</Link>
                     <Link to={"/services/cro"}>CRO</Link>
                     <Link to={"/services/seo"}>SEO</Link>
-                    <Link to={"/services/cro"}>CRO</Link>
-                    <Link to={"/services/seo"}>SEO</Link>
-                    <Link to={"/services/cro"}>CRO</Link>
+                    <Link to={"/services/cro"}>CRO</Link> */}
                             
                 </section>
             </div>

@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './styles.css'
 import gradiente from '../../assets/gradiente.png'
 
@@ -10,28 +10,31 @@ function ServicesBanner(props) {
             <div className="main-btns">
                 <ul>
                     <li>
-                        <Link 
+                        <NavLink 
                         to={'/services/midias/'} 
                         className={`link-ref`}
+                        activeClassName="page-active"
                         >
                             MIDIAS
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link 
+                        <NavLink 
                         to={'/services/inbound/'} 
                         className={`link-ref`}
+                        activeClassName="page-active"
                         >
                             INBOUND
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link 
+                        <NavLink 
                         to={'/services/tecnologias/'} 
                         className={`link-ref`}
+                        activeClassName="page-active"
                         >
-                            TECNOLOGIAS
-                        </Link>
+                            TECNOLOGIA
+                        </NavLink>
                     </li>
 
                 </ul>

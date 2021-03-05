@@ -5,7 +5,7 @@ function PageWebAnalytics() {
     return (
         <div>
         <ServicesBanner
-            img="ImgTecnologias"
+            img="ImgAnalytics"
         />
 
         <div className="container">

@@ -6,7 +6,7 @@ function Tecnologias() {
     return (
         <div>
             <ServicesBanner
-                img="ImgTecnologias"
+                img="ImgTI"
             />
 
             <div className="container">
@@ -30,8 +30,8 @@ function Tecnologias() {
                 
                 <section className="btn-container">
 
-                    <Link to={"/services/webanalytics"}>Web Analytics</Link>
-                    <Link to={"/services/webdev"}>Web Development</Link>
+                    <Link to={"/services/tecnologias/webanalytics"}>Web Analytics</Link>
+                    <Link to={"/services/tecnologias/webdev"}>Web Development</Link>
                             
                 </section>
             </div>

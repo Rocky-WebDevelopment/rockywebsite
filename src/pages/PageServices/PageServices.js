@@ -33,14 +33,14 @@ function Services() {
 
       <BrowserRouter>
         <Switch>
+            <Route exact path="/services" component={Home} />
             <Route path="/services/midias" component={Midias} />
-            <Route path="/services/home" component={Home} />
-            <Route path="/services/inbound" component={Inbound} />
-            <Route path="/services/seo" component={SEO} />
-            <Route path="/services/cro" component={CRO} />
-            <Route path="/services/tecnologias" component={Tecnologias} />
-            <Route path="/services/webdev" component={WebDev} />
-            <Route path="/services/webanalytics" component={WebAnalytics} />
+            <Route exact path="/services/inbound" component={Inbound} />
+            <Route path="/services/inbound/seo" component={SEO} />
+            <Route path="/services/inbound/cro" component={CRO} />
+            <Route exact path="/services/tecnologias" component={Tecnologias} />
+            <Route path="/services/tecnologias/webdev" component={WebDev} />
+            <Route path="/services/tecnologias/webanalytics" component={WebAnalytics} />
 
         </Switch>
       </ BrowserRouter>

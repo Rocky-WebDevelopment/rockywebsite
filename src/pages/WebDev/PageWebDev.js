@@ -5,7 +5,7 @@ function PageWebDev() {
     return (
         <div>
             <ServicesBanner
-                img="ImgTecnologias"
+                img="ImgWebDev"
             />
             <div className="container">
                 <h1>Web Development</h1>

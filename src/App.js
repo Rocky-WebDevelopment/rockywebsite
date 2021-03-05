@@ -26,7 +26,7 @@ function App() {
       <Certified></Certified>
       <ul className="navbar-nav mr-auto">
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/services/home'} className="nav-link">Services</Link></li>
+            <li><Link to={'/services'} className="nav-link">Services</Link></li>
             <li><Link to={'/about'} className="nav-link">About</Link></li>
           </ul>
       <Footer></Footer>
