@@ -42,6 +42,7 @@
 
 .carousel-text p{
     padding-top: 10px;
+    font-size: 14px;
 }
 
 @media(max-width: 980px){
