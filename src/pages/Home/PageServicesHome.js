@@ -1,12 +1,22 @@
-import React from 'react'
-import ServicesBanner from '../../components/ServicesBanner/ServicesBanner'
-import imageHome from '../../assets/midia digital@2x.png'
+import React from 'react';
+import ServicesBanner from '../../components/ServicesBanner/ServicesBanner';
+import imageHome from '../../assets/midia digital@2x.png';
+import HeaderDesktop from '../../components/HeaderDesktop/index';
+import Header from '../../components/Header';
 import './HomeStyle.css'
 import { Link } from 'react-router-dom'
+import {Helmet} from "react-helmet";
 
 function PageServicesHome() {
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <meta name="description" content="Conheça os Serviços que a Rocky oferece para sua empresa ter a melhor experiência no digital marketing! Saiba mais sobre Midias, Inbound e Tecnologia!"></meta>
+                <title>Serviços | Full Digital Performance</title>
+            </Helmet>
+            <Header></Header>
+            <HeaderDesktop></HeaderDesktop>
             <ServicesBanner
                 img="ImgHome"
             />
@@ -14,7 +24,7 @@ function PageServicesHome() {
             <div class="container">
                 <div class="content">
                     <div class="image">
-                        <img src={imageHome} alt="Gráficos de Mídias"/>
+                        <img alt="graficos midias" src={imageHome} alt="Gráficos de Mídias"/>
                     </div>
                     <div class="text">
                         <h3>Uma parceria Full Digital estratégica em Branding e Performance para sua empresa!</h3>

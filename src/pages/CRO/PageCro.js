@@ -16,7 +16,7 @@ function PageCro() {
                 <p>
                     Com uma visão heurística, ferramentas analíticas, testes comportamentais e análise de dados, geramos insights estratégicos para melhorar seus resultados e a experiência de usuário do seu cliente.
                 </p>
-                <h3>Metodologia</h3>
+                <h2>Metodologia</h2>
                 <p>
                     Nosso time de especialistas em CRO trabalham com uma metodologia teórica e prática, em que analisam o site da marca e suas páginas principais para formular hipóteses iniciais sobre pontos de atenção em sua performance.
                 </p>
@@ -24,9 +24,9 @@ function PageCro() {
                 A partir dessas hipóteses, são desenvolvidos testes experimentais que serão executados na plataforma, para provar ou refutar essas teorias. Com essas implementações, há um acompanhamento preciso dos resultados em tempo real e assim, otimizações e melhorias são apresentadas.
                 </p>
             
-                <h3>
+                <h2>
                     Uso de dados quantitativos e qualitativos
-                </h3>
+                </h2>
                 <p>
                     Em CRO, dados quantitativos e dados qualitativos têm a mesma importância e são igualmente relevantes para a performance do site e o número de conversões.
                 </p>
@@ -41,9 +41,9 @@ function PageCro() {
                 <p>
                     Além disso, configuramos relatórios personalizados de performance, mapas de calor no site e fazemos uma priorização de testes a serem realizados de acordo com a necessidade identificada durante a análise.
                 </p>
-                <h3>
+                <h2>
                     Resultados
-                </h3>
+                </h2>
                 <p>
                     Com a finalização de todos os relatórios, estudos e testes, os resultados são analisados e documentados para concluir o estudo. Nosso time de CRO traz as melhores soluções para as páginas e apresenta as otimizações necessárias para uma melhor performance do site analisado.
                 </p>

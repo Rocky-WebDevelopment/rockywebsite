@@ -10,7 +10,7 @@ function Inbound() {
             />
             <div className="container">
                 <h1>Inbound</h1>
-                <h3>Uma parceria Full Digital estratégica em Branding e Performance para sua empresa!</h3>
+                <h2>Uma parceria Full Digital estratégica em Branding e Performance para sua empresa!</h2>
                 <p>
                     Aumentando seu reconhecimento de marca, consolidando sua reputação, fortalecendo seu relacionamento com clientes e entregando conversões orgânicas, uma boa estratégia de Inbound Marketing faz diferença nos resultados da sua empresa. 
                 </p>
@@ -27,7 +27,6 @@ function Inbound() {
                     <Link to={"/services/inbound/design"}>Design</Link>
                     <Link to={"/services/inbound/social"}>Social Media</Link>
                     <Link to={"/services/inbound/conteudo"}>Conteúdo</Link>
-                    <Link to={"/services/inbound/ti"}>TI</Link> 
                 </section>
             </div>
         </div>

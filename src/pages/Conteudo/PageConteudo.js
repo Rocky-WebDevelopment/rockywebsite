@@ -1,9 +1,11 @@
 import React from 'react'
 import ServicesBanner from '../../components/ServicesBanner/ServicesBanner'
+import HeaderDesktop from '../../components/HeaderDesktop/index';
 
 function PageConteudo() {
     return (
         <div>
+            <HeaderDesktop></HeaderDesktop>
             <ServicesBanner
                 img="ImgInbound"
             />
@@ -15,29 +17,29 @@ function PageConteudo() {
                 <p>
                 Com a criação de materiais ricos e otimizados, em diversos formatos, nosso time de Conteúdo, formado por jornalistas especialistas em SEO, tem como propósito entregar performance em marketing de conteúdo a partir de estratégias personalizadas e baseadas em dados.
                 </p>
-                <h3>Conteúdo para blog</h3>
+                <h2>Conteúdo para blog</h2>
                 <p>
                 Fazemos a produção de conteúdos estratégicos e otimizados para gerar tráfego para o site do cliente e colocar a marca em destaque nas buscas orgânicas. Os conteúdos têm como objetivo construir uma relação com os usuários que podem se tornar clientes.
                 </p>
                 <p>
                 A partir de estudos de palavras-chave, oportunidades no mercado, insights internos e análise de concorrência, desenvolvemos pautas estratégicas para um bom ranqueamento orgânico e aumento de tráfego.
                 </p>
-                <h3>
+                <h2>
                 Assessoria de conteúdo
-                </h3>
+                </h2>
                 <p>
                 Em nosso serviço de assessoria, nosso time de Conteúdo é responsável pela criação de estratégias de conteúdo a serem realizadas pela equipe interna do cliente.
                 </p>
                 <p>
                 Utilizando os mesmo critérios para criação de pautas, trazemos uma relatoria completa e aprofundada sobre o desempenho do blog e assuntos relevantes a serem discutidos, de acordo com o objetivo do cliente.
                 </p>
-                <h3>Copywriting para sites</h3>
+                <h2>Copywriting para sites</h2>
                 <p>
                 Trabalhando com critérios de ranqueamento, escaneabilidade de textos, experiência do usuário e palavras-chave relevantes para o segmento, nosso time de Conteúdo desenvolve textos para sites, como landing pages, meta descriptions, títulos, descrição de produtos e categorias.
                 </p>
-                <h3>
+                <h2>
                     Persona
-                </h3>
+                </h2>
                 <p>
                 Entender quem realmente é o cliente da sua marca é de extrema importância para suas estratégias em digital. 
                 </p>

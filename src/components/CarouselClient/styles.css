@@ -35,6 +35,10 @@
     .desktop-header{
         display: none;
     }
+
+    .first-carousel-container .alice-carousel{
+        display: none;
+    }
     
 }
 
@@ -47,6 +51,10 @@
 }
 
 #first-box{
+    background-image: url("../../assets/banner02.png");
+}
+
+#mobile-headline{
     background-image: url("../../assets/banner02.png");
 }
 
@@ -83,6 +91,10 @@
 
 
 @media (min-width: 980px){
+    #mobile-headline{
+        display: none;
+    }
+
     .alice-carousel__wrapper{
         left: 0%;
     }

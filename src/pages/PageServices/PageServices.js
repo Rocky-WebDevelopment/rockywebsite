@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
 
 import Header from '../../components/Header';
-import HeaderDesktop from '../../components/HeaderDesktop';
-import Timeline from '../../components/Timeline';
-import Certified from '../../components/Certified';
 import Footer from '../../components/Footer';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
-
+import HeaderDesktop from '../../components/HeaderDesktop/index';
 import Midias from '../Midias/PageMidias'
 import Inbound from '../Inbound/PageInbound'
-import Tecnologias from '../Tecnologias/PageTech';
 import CRO from '../CRO/PageCro';
 import SEO from '../SEO/PageSeo';
 import Design from '../Design/PageDesign';
@@ -32,7 +28,7 @@ function Services() {
     <div>
       <Header/>
 
-      {/* <HeaderDesktop/> */}
+      <HeaderDesktop/>
 
       <BrowserRouter>
         <Switch>

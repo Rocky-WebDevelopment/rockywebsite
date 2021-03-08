@@ -74,6 +74,11 @@
     max-height: 498.5px;
   }
 
+  .carousel-item:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease 0s;
+  }
+
   .carousel-text{
     padding-top: 1%!important;
     padding-bottom: 15%;

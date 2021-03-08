@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Header from './components/Header';
 import HeaderDesktop from './components/HeaderDesktop';
@@ -8,13 +8,8 @@ import Services from './components/Services';
 import Certified from './components/Certified';
 import Footer from './components/Footer';
 import Forms from './components/Forms';
-import {BrowserRouter, Switch, Route, Link} from 'react-router-dom';
 
 function App() {
-  /*
-  const [data, setData] = useState();
-  const [error, setError] = useState(false);
-  */
 
   return (
     <div>
@@ -24,11 +19,7 @@ function App() {
       <Timeline></Timeline>
       <Services></Services>
       <Certified></Certified>
-      <ul className="navbar-nav mr-auto">
-            <li><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/services'} className="nav-link">Services</Link></li>
-            <li><Link to={'/about'} className="nav-link">About</Link></li>
-          </ul>
+      <Forms></Forms>
       <Footer></Footer>
     </div>
   );

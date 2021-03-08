@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px;
+    background-color: #f1f1f1;
 }
 
 .clients-logo-container{
@@ -45,6 +46,26 @@
         width: 50%;
         padding-top: 15%;
     }
+    .conectors_box img{
+        height: 60px;
+        width: 150px;
+        padding-top: 8%;
+    }
+    .fix-icons{
+        height: 110px!important;
+    }
+    .fix-icons{
+        height: 110px!important;
+    }
+    .fix-icons{
+        height: 110px!important;
+    }
+    .conectors_box{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    } 
 }
 
 @media (min-width: 980px){
@@ -72,8 +93,8 @@
       }
       
       .conectors_box img{
-        height: 110px;
-        width: 190px;
+        height: 82px;
+        width: 166px;
         padding-right: 1.5%;
         padding-left: 1.5%;
       }

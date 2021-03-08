@@ -20,7 +20,7 @@ function Carousel() {
           FULL DIGITAL PERFORMANCE
           </h1>
           <h1 className="item1-description">
-          Identificou que o digital é onde sua empresa pode crescer,<br/> mas ainda não conseguiu definir quais objetivos traçar e como atingi-los?
+          Quer saber como a ROCKY pode te ajudar no desenvolvimento da sua estratégia de digital para alcançar resultados de sucesso? Arrasta para o lado que nossos clientes te explicam!
           </h1>
         </div>
       </div>
@@ -52,13 +52,28 @@ function Carousel() {
   ];
 
   return (
-    <AliceCarousel
+    <div className="first-carousel-container">
+      <div id="mobile-headline" className="item-clients" data-value="1">
+        <div className="client-stories-carousel">
+          <div className="text-container">
+            <h1 className="item1-title">
+            FULL DIGITAL PERFORMANCE
+            </h1>
+            <h1 className="item1-description">
+            Quer saber como a ROCKY pode te ajudar no desenvolvimento da sua estratégia de digital para alcançar resultados de sucesso? Arrasta para o lado que nossos clientes te explicam!
+            </h1>
+          </div>
+        </div>
+        </div>
+
+      <AliceCarousel
           disableButtonsControls={true}
           mouseTracking
           items={items}
           responsive={responsive}
         >
-    </AliceCarousel>
+      </AliceCarousel>
+    </div>
   );
 }
 

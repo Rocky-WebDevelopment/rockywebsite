@@ -8,7 +8,7 @@ function ServicesBanner(props) {
     return (
         <div className={`banner ${props.img}`}>
             <div className="main-btns">
-                <ul>
+                <ul className="main-btns-ul">
                     <li>
                         <NavLink 
                         to={'/services/midias/'} 

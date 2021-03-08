@@ -18,7 +18,7 @@ function PageSeo() {
                 <p>
                     Isso é possível porque trabalhamos com ferramentas referência no mercado, que nos proporcionam informações relevantes e necessárias para análises mais complexas e um monitoramento em tempo real de performance.
                 </p>
-                <h3>Consultoria</h3>
+                <h2>Consultoria</h2>
                 <p>
                     A consultoria é uma avaliação completa do site. 
                 </p>
@@ -30,7 +30,7 @@ function PageSeo() {
                     Consideramos as tags, hierarquia do site, autoridade, performance, visibilidade e indexação como alguns dos principais critérios para otimizações de acordo com os mecanismos de busca.
                 </p>
             
-                <h3>Implementação</h3>
+                <h2>Implementação</h2>
                 <p>
                     Nosso time de implementação é responsável por colocar em prática todas as otimizações identificadas como necessárias no processo de Consultoria. 
                 </p>
@@ -38,7 +38,7 @@ function PageSeo() {
                     Os profissionais também trabalham para auxiliar e facilitar ações de migração de sites, cuidando para que não haja uma queda de resultados, mantendo toda a autoridade e relevância durante a transferência. 
                 </p>
             
-                <h3>ASO - App Store Optimization</h3>
+                <h2>ASO - App Store Optimization</h2>
                 <p>
                     Os aplicativos também têm papel importante nos resultados de uma empresa e por isso, trabalhamos com estratégias em todas suas etapas de conversão. 
                     Com insights de otimização técnica e UX, testes A/B, estudo de palavras-chave relevantes, análises de desempenho externo, atividades recorrentes e ASO técnico, conseguimos entregar resultados em maior visualização do aplicativo dentro da loja de apps, número de downloads e conversões internas.

@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './styles.css';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 function Timeline() {
 
   const [isLoading, setIsLoading] = useState(false)
@@ -178,26 +179,24 @@ function Timeline() {
           
           (<div>
             <VerticalTimelineElement
-              iconStyle={{ background: '#F0E714', color: '#fff' }}
-              iconOnClick={buttonHandler}
-              id="expand-timeline"
-              //icon={<StarIcon />}
-            />
-
-            <VerticalTimelineElement
+              icon={<AddIcon />}
               iconStyle={{ background: '#F0E714', color: '#fff' }}
               iconOnClick={buttonHandler}
               id="expand-timeline"
               //icon={<StarIcon />}
             />
           </div>)}
-
-        <VerticalTimelineElement
+        {isLoading? 
+          <VerticalTimelineElement
           iconStyle={{ background: '#F0E714', color: '#fff' }}
           iconOnClick={buttonHandler}
           id="expand-timeline"
+          icon={<RemoveIcon/>}
           //icon={<StarIcon />}
-        />
+          />
+          :
+          null
+        }
       </VerticalTimeline>
     </div>
   );

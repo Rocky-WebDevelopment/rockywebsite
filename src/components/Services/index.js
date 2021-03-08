@@ -17,7 +17,7 @@ function Services() {
     const items = [
         <div className="item" data-value="1">
           <div className="carousel-item">
-            <img className="carousel-image" src={midiadigital}/>
+            <img alt="imagem-carrosel" className="carousel-image" src={midiadigital}/>
             <div className="carousel-text">
               <p style={{fontWeight: "bold", fontSize: "20px", paddingBottom: "5%"}}><b>Mídia Digital</b></p>
               <p>Gestão de Google Ads</p>
@@ -31,7 +31,7 @@ function Services() {
 
         <div className="item" data-value="2">
           <div className="carousel-item">
-            <img className="carousel-image" src={seocro}/>
+            <img alt="imagem-carrosel" className="carousel-image" src={seocro}/>
             <div className="carousel-text">
               <p style={{fontWeight: "bold", fontSize: "20px", paddingBottom: "5%"}}><b>SEO/ ASO</b></p>
               <p>Acompanhamento KW</p>
@@ -45,7 +45,7 @@ function Services() {
         
         <div className="item" data-value="3">
           <div className="carousel-item">
-            <img className="carousel-image" src={design}/>
+            <img alt="imagem-carrosel"className="carousel-image" src={design}/>
             <div className="carousel-text">
               <p style={{fontWeight: "bold", fontSize: "20px", paddingBottom: "5%"}}><b>Design</b></p>
               <p>Criação de Key Visual</p>

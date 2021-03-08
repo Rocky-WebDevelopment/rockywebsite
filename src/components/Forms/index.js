@@ -15,7 +15,7 @@ function Forms(){
                 <input placeholder="R$"></input>
                 <label>Mensagem</label>
                 <input id="message" placeholder="Bom dia"></input>
-                <button>ENVIAR MENSAGEM</button>
+                <button className="forms-button">ENVIAR MENSAGEM</button>
             </div>
         </div>
     );
