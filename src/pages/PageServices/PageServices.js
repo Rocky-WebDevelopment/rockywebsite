@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
@@ -19,10 +19,7 @@ import '../pageStyles.css'
 
 
 function Services() {
-  /*
-  const [data, setData] = useState();
-  const [error, setError] = useState(false);
-  */
+
 
   return (
     <div>
