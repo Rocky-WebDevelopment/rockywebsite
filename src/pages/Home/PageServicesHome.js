@@ -24,7 +24,7 @@ function PageServicesHome() {
             <div class="container">
                 <div class="content">
                     <div class="image">
-                        <img alt="graficos midias" src={imageHome} alt="Gráficos de Mídias"/>
+                        <img  src={imageHome} alt="Gráficos de Mídias"/>
                     </div>
                     <div class="text">
                         <h3>Uma parceria Full Digital estratégica em Branding e Performance para sua empresa!</h3>
