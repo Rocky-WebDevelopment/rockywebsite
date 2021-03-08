@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../Header/styles.css';
 import logo from "../../assets/logo_branco.png";
 import {Link} from 'react-router-dom';
@@ -19,13 +19,19 @@ function Header() {
         
         <li>
           <Link style={{textDecoration: "none"}} to={'/services'} className="nav-link">
-            <a rel="noreferrer" rel="noreferrer" class="menu__item" href="#">SERVIÇOS</a>
+            <a rel="noreferrer" class="menu__item" href="/services">SERVIÇOS</a>
+          </Link>
+        </li>
+        
+        <li>
+          <Link style={{textDecoration: "none"}} to={'/contato'} className="nav-link">
+            <a rel="noreferrer" class="menu__item" href='/contato'>CONTATO</a>
           </Link>
         </li>
         <li>
-          <a rel="noreferrer" class="menu__item" href="#">CONTATO</a></li>
-        <li>
-          <a rel="noreferrer" class="menu__item" href="#">TRABALHE CONOSCO</a>
+          <Link style={{textDecoration: "none"}} to={'/trabalhe-conosco'} className="nav-link">
+            <a rel="noreferrer" class="menu__item" href="/trabalhe-conosco">TRABALHE CONOSCO</a>
+          </Link>
         </li>
       </ul>
     </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import './styles.css';
-import logo from "../../assets/logo_branco.png";
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 

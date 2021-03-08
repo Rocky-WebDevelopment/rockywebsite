@@ -1,7 +1,6 @@
-import React, {useEffect, useState} from 'react'
-import { Link, NavLink } from 'react-router-dom';
-import './styles.css'
-import gradiente from '../../assets/gradiente.png'
+import React from 'react'
+import { NavLink } from 'react-router-dom';
+import './styles.css';
 
 function ServicesBanner(props) {
 
