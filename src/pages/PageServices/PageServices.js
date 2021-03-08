@@ -1,5 +1,5 @@
 import React from 'react';
-
+import App from '../../App';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
@@ -31,7 +31,7 @@ function Services() {
         <Switch>
             <Route exact path="/services" component={Home} />
             <Route path="/services/midias" component={Midias} />
-
+            <Route path="/" exact={true} component={App} />
             <Route path="/services/home" component={Home} />
             <Route exact path="/services/inbound" component={Inbound} />
             <Route path="/services/inbound/seo" component={SEO} />
